@@ -1,18 +1,4 @@
 
-# Inventory Management System (Frontend)
-
-A robust, scalable, and responsive frontend for a **Distributed Inventory Management System** designed for high-traffic e-commerce platforms. This project features an Admin Dashboard, Vendor Panel, Customer UI, and a Billing module with real-time data updates and PDF invoice generation.
-
-## Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Available Scripts](#available-scripts)
-- [Environment Variables](#environment-variables)
-- [Contributing](#contributing)
-- [License](#license)
 
 # Inventory Management System (Frontend)
 
@@ -34,7 +20,7 @@ A robust, scalable, and responsive frontend for a **Distributed Inventory Manage
 
 Check out the live deployed version of the Inventory Management System:
 
-[Deployed Link]([https://your-deployed-link.com](https://snazzy-swan-ae8e75.netlify.app/login))
+[Deployed Link](https://snazzy-swan-ae8e75.netlify.app/login)
 
 
 
