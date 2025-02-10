@@ -20,7 +20,7 @@ A robust, scalable, and responsive frontend for a **Distributed Inventory Manage
 
 Check out the live deployed version of the Inventory Management System:
 
-[Deployed Link](https://snazzy-swan-ae8e75.netlify.app/login)
+[Deployed Link](https://snazzy-swan-ae8e75.netlify.app/)
 
 
 
