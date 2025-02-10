@@ -63,6 +63,47 @@ Check out the live deployed version of the Inventory Management System:
 - **Build Tool:** Vite (or Create React App)
 - **Version Control & CI:** Git, GitHub Actions/Jenkins (optional)
 
+## ER Diagram
+
+Below is an ER (Entity Relationship) diagram for the Inventory Management System. This diagram uses [Mermaid](https://mermaid.js.org/) syntax. Make sure your markdown viewer supports Mermaid or use a Mermaid live editor (e.g., [Mermaid Live Editor](https://mermaid.live)) to view the rendered diagram.
+
+```mermaid
+erDiagram
+    %% Define the PRODUCT entity
+    PRODUCT {
+      string id PK
+      string name
+      float price
+      int quantity
+    }
+
+    %% Define the CUSTOMER entity
+    CUSTOMER {
+      string id PK
+      string name
+      string email
+    }
+
+    %% Define the ORDER entity
+    ORDER {
+      string id PK
+      date orderDate
+      string customerId FK
+    }
+
+    %% Define the INVOICE entity
+    INVOICE {
+      string id PK
+      float total
+      date invoiceDate
+      string orderId FK
+    }
+
+    %% Define the relationships
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ PRODUCT : includes
+    ORDER ||--|| INVOICE : generates
+```
 ## Project Structure
 
 
